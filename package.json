@@ -1,0 +1,16 @@
+{
+  "name": "pi-garage-door-control",
+  "version": "1.0.0",
+  "description": "Raspberry Pi Redis PubSub Garage Door Sensor and Control.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r ./env/production.js index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dustin Coffey <dustin@cass-solutions.com>",
+  "license": "ISC",
+  "dependencies": {
+    "onoff": "^3.2.2",
+    "redis": "^2.8.0"
+  }
+}
